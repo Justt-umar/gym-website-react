@@ -21,11 +21,12 @@ const PORT = process.env.PORT || 3001
 // Middleware
 app.use(cors({
   origin: (origin, callback) => {
-    // Allow requests from localhost, your local network, and no origin (mobile apps)
+    // Allow requests from localhost, your local network, Vercel deployments, and no origin (mobile apps)
     const allowedOrigins = [
       'http://localhost:5173',
       'http://127.0.0.1:5173',
       /^http:\/\/.*:5173$/,  // Allow any IP on port 5173
+      /^https:\/\/.*\.vercel\.app$/,  // Allow all Vercel deployments
       process.env.FRONTEND_URL
     ].filter(Boolean)
     
@@ -34,7 +35,7 @@ app.use(cors({
     )) {
       callback(null, true)
     } else {
-      callback(null, true) // Allow all origins for development
+      callback(null, true) // Allow all origins for now
     }
   },
   credentials: true
