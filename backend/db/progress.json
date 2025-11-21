@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1763670543799",
+    "userId": "1763669009913",
+    "timestamp": "2025-11-20T20:29:03.799Z",
+    "type": "cardio_workout",
+    "data": {
+      "date": "2025-11-20",
+      "weight": "40",
+      "workout": "Running",
+      "duration": "30",
+      "calories": "300",
+      "notes": "",
+      "timestamp": "2025-11-20T20:29:03.787Z"
+    }
+  },
+  {
+    "id": "1763671403668",
+    "userId": "1763669009913",
+    "timestamp": "2025-11-20T20:43:23.669Z",
+    "type": "form_analysis",
+    "data": {
+      "exercise": "squat",
+      "score": 91,
+      "feedback": [
+        "✓ Good depth - hips below parallel",
+        "✓ Knees tracking over toes correctly",
+        "⚠️ Keep chest more upright - avoid leaning forward",
+        "✓ Core appears engaged",
+        "💡 Tip: Drive through your heels on the way up",
+        "💡 Consider wider stance for better stability"
+      ],
+      "timestamp": "2025-11-20T20:43:23.602Z"
+    }
+  },
+  {
+    "id": "1763677883899",
+    "userId": "1763670589618",
+    "timestamp": "2025-11-20T22:31:23.901Z",
+    "type": "meal_plan",
+    "data": {
+      "preferences": {
+        "calories": 2500,
+        "dietType": "veg",
+        "allergies": "",
+        "variation": 0,
+        "requestType": "new"
+      },
+      "mealPlan": {
+        "breakfast": [
+          "3 medium whole wheat roti with aloo gobi sabzi (1.5 katori)",
+          "1 cup (200ml) masala chai (prepared with full-fat milk and minimal sugar)",
+          "1 small bowl (100g) curd (dahi)"
+        ],
+        "mid-morning": [
+          "1 medium-sized guava",
+          "1 glass (250ml) coconut water"
+        ],
+        "lunch": [
+          "2 medium-sized bowls (approx. 300g) Rajma Chawal (kidney bean curry with rice) prepared with desi ghee tadka",
+          "1 katori mixed vegetable raita (cucumber, carrot, onion in yogurt)",
+          "1 small bowl (100g) salad (cucumber, tomato, onion with lemon dressing)"
+        ],
+        "evening_snack": [
+          "Vegetable Pakora (4-5 pieces) with mint chutney",
+          "1 cup (200ml) masala chai (prepared with full-fat milk and minimal sugar)",
+          "Handful of roasted peanuts (approx 30g)"
+        ],
+        "dinner": [
+          "2 medium whole wheat roti with palak paneer sabzi (1.5 katori)",
+          "1 katori dal makhani (black lentil and kidney bean dal)",
+          "1 small bowl (100g) rice",
+          "1 small bowl (100g) curd (dahi)"
+        ],
+        "before_bed": [
+          "1 glass (250ml) warm milk with a pinch of turmeric (haldi)"
+        ]
+      },
+      "generatedAt": "2025-11-20T22:31:23.826Z"
+    }
+  }
+]

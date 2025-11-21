@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1763669009913",
+    "name": "Umar Khan",
+    "email": "umarroyal.rath@gmail.com",
+    "mobile": "8739091508",
+    "password": "$2b$10$raeAGJnfJP4DKVDe0iHmeusAc.SXhHrwXh6dPQTtOPbcwQq4h6//6",
+    "createdAt": "2025-11-20T20:03:29.914Z",
+    "lastLogin": "2025-11-20T23:37:29.898Z"
+  },
+  {
+    "id": "1763670589618",
+    "name": "Raj",
+    "email": "rajroyal.rath@gmail.com",
+    "mobile": null,
+    "password": "$2b$10$kxHsrpv384c5lMEbIIy69OvuzwXKJlFkfX1Bgoak6T0DiGfZ2n8I2",
+    "createdAt": "2025-11-20T20:29:49.618Z",
+    "lastLogin": "2025-11-20T21:39:13.993Z"
+  }
+]
