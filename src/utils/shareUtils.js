@@ -1,9 +1,14 @@
 // Backend API configuration - automatically uses the correct IP for mobile/desktop
 const getBackendUrl = () => {
+  // Production backend
+  if (import.meta.env.PROD) {
+    return 'https://minakshi-fitness-backend.onrender.com'
+  }
+  // Use environment variable if set
   if (import.meta.env.VITE_BACKEND_URL) {
     return import.meta.env.VITE_BACKEND_URL
   }
-  // Use current hostname with backend port
+  // Development: Use current hostname with backend port
   const hostname = window.location.hostname
   return `http://${hostname}:3001`
 }

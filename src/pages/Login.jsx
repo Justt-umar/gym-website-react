@@ -42,9 +42,10 @@ function Login() {
     setLoading(true)
 
     try {
-      // Use dynamic backend URL that works on both desktop and mobile
-      const hostname = window.location.hostname
-      const backendUrl = `http://${hostname}:3001`
+      // Use production backend or dynamic URL for development
+      const backendUrl = import.meta.env.PROD 
+        ? 'https://minakshi-fitness-backend.onrender.com'
+        : `http://${window.location.hostname}:3001`
 
       if (isSignup) {
         // Signup validation
