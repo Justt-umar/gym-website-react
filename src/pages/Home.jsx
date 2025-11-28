@@ -458,12 +458,12 @@ function Home() {
               <div className="info">
                 <ul>
                   <li><span className="fa fa-map-marker"></span> Orai Road Near Naher Bypass, Rath</li>
-                  <li><span className="fa fa-phone"></span> +91 6306019048</li>
-                  <li><span className="fa fa-envelope"></span> umarroyal.rath@gmail.com</li>
+                  <li><span className="fa fa-phone"></span> +91 9826030890</li>
+                  <li><span className="fa fa-envelope"></span> ojasnahta2004@gmail.com</li>
                 </ul>
               </div>
               <div className="social">
-                <a href="https://www.facebook.com/umar900123/" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page">
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page">
                   <span className="fa fa-facebook"></span>
                 </a>
                 <a href="https://www.instagram.com/minakshi_gym_rath?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" aria-label="Visit our Instagram page">
@@ -471,7 +471,7 @@ function Home() {
                 </a>
               </div>
               <div className="copy">
-                Powered By &copy; Umar Khan
+                Powered By &copy; Ojas Nahta 
               </div>
             </div>
           </div>

@@ -147,7 +147,7 @@ export function generateMealPlanPDF(mealPlan, preferences) {
   doc.text('Location: Orai Road Near Naher Bypass, Rath, UP', pageWidth / 2, yPosition, { align: 'center' })
   
   yPosition += 6
-  doc.text('Phone: +91 6306019048  |  Email: umarroyal.rath@gmail.com', pageWidth / 2, yPosition, { align: 'center' })
+  doc.text('Phone: +91 9826030890  |  Email: ojasnahta2004@gmail.com', pageWidth / 2, yPosition, { align: 'center' })
   
   yPosition += 8
   doc.setFont('helvetica', 'italic')
@@ -305,7 +305,7 @@ export function generateWorkoutPlanPDF(workoutPlan, preferences) {
   doc.setTextColor(255, 255, 255)
   doc.setFont('helvetica', 'normal')
   doc.text('Location: Orai Road Near Naher Bypass, Rath, UP', pageWidth / 2, footerY + 12, { align: 'center' })
-  doc.text('Phone: +91 6306019048  |  Email: umarroyal.rath@gmail.com', pageWidth / 2, footerY + 18, { align: 'center' })
+  doc.text('Phone: +91 9826030890  |  Email: ojasnahta2004@gmail.com', pageWidth / 2, footerY + 18, { align: 'center' })
   
   doc.setFont('helvetica', 'italic')
   doc.setFontSize(8)

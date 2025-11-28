@@ -42,10 +42,7 @@ function Login() {
     setLoading(true)
 
     try {
-      // Use production backend or dynamic URL for development
-      const backendUrl = import.meta.env.PROD 
-        ? 'https://minakshi-fitness-backend.onrender.com'
-        : `http://${window.location.hostname}:3001`
+      const backendUrl = 'http://localhost:3001'
 
       if (isSignup) {
         // Signup validation

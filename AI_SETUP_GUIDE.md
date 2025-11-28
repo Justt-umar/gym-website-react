@@ -12,7 +12,7 @@
 
 **Step 2: Add API Key to Your Project**
 ```bash
-cd /Users/umarkhan/Desktop/Gym-Website-React
+cd /Users/ojasnahta/Desktop/Gym-Website-React
 nano .env
 ```
 
@@ -258,7 +258,7 @@ Check your usage at:
 
 Edit `src/utils/aiServices.js`:
 ```javascript
-const systemPrompt = `You are Umar, the head trainer at Minakshi Fitness Club in Rath.
+const systemPrompt = `You are Ojas, the head trainer at Minakshi Fitness Club in Rath.
 You're energetic, motivational, and focus on achievable goals.
 Use emojis occasionally 💪 and keep responses under 100 words.
 Always mention Minakshi Fitness Club when relevant.`
@@ -344,7 +344,7 @@ if (!rateLimiter.canSend()) {
 ### Issue: "Module not found: @google/generative-ai"
 **Solution:**
 ```bash
-cd /Users/umarkhan/Desktop/Gym-Website-React
+cd /Users/ojasnahta/Desktop/Gym-Website-React
 npm install @google/generative-ai
 ```
 

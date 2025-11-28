@@ -100,7 +100,7 @@ lsof -i :5173 | grep LISTEN
 
 Expected output:
 ```
-node   XXXXX umarkhan   19u  IPv4  ...  TCP *:5173 (LISTEN)
+node   XXXXX ojasnahta   19u  IPv4  ...  TCP *:5173 (LISTEN)
 ```
 
 ### Test 2: Test from Mac Terminal
@@ -187,7 +187,7 @@ Before testing on mobile:
 
 **To restart server with network access:**
 ```bash
-cd /Users/umarkhan/Desktop/Gym-Website-React
+cd /Users/ojasnahta/Desktop/Gym-Website-React
 npx vite --host 0.0.0.0 --port 5173
 ```
 
@@ -211,7 +211,7 @@ pkill -9 node
 ifconfig en0 | grep "inet " | awk '{print $2}'
 
 # 3. Start server with network access
-cd /Users/umarkhan/Desktop/Gym-Website-React
+cd /Users/ojasnahta/Desktop/Gym-Website-React
 npx vite --host 0.0.0.0 --port 5173
 
 # 4. Verify it shows "Network: http://YOUR_IP:5173/"

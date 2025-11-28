@@ -389,8 +389,8 @@ Want to learn more about AI in fitness?
 ## 📞 Support
 
 For technical issues or feature requests:
-- Email: umarroyal.rath@gmail.com
-- Phone: +91 6306019048
+- Email: ojasnahta2004@gmail.com
+- Phone: +91 9826030890
 
 ---
 
@@ -418,7 +418,7 @@ For technical issues or feature requests:
 
 ---
 
-**Built with ❤️ by Umar Khan**
+**Built with ❤️ by Ojas Nahta**
 
 **Powered by React, TensorFlow.js, and OpenAI**
 

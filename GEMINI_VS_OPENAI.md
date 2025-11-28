@@ -293,7 +293,7 @@ Your gym website now has:
 
 **Start testing now:**
 ```bash
-cd /Users/umarkhan/Desktop/Gym-Website-React
+cd /Users/ojasnahta/Desktop/Gym-Website-React
 npm run dev
 ```
 

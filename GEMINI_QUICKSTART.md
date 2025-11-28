@@ -12,7 +12,7 @@
 
 ### Step 2: Add to .env
 ```bash
-cd /Users/umarkhan/Desktop/Gym-Website-React
+cd /Users/ojasnahta/Desktop/Gym-Website-React
 nano .env
 ```
 
@@ -247,7 +247,7 @@ npm install @google/generative-ai
 ## 📞 Support
 
 **Questions?**
-- Email: umarroyal.rath@gmail.com
+- Email: ojasnahta2004@gmail.com
 - Phone: +91 6306019048
 
 **Found a bug?**

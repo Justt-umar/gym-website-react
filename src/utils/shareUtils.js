@@ -1,18 +1,5 @@
-// Backend API configuration - automatically uses the correct IP for mobile/desktop
-const getBackendUrl = () => {
-  // Production backend
-  if (import.meta.env.PROD) {
-    return 'https://minakshi-fitness-backend.onrender.com'
-  }
-  // Use environment variable if set
-  if (import.meta.env.VITE_BACKEND_URL) {
-    return import.meta.env.VITE_BACKEND_URL
-  }
-  // Development: Use current hostname with backend port
-  const hostname = window.location.hostname
-  return `http://${hostname}:3001`
-}
-const API_URL = getBackendUrl()
+// Backend API configuration
+const API_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3001'
 
 // Format meal plan as text message
 function formatMealPlanText(mealPlan, preferences) {
@@ -54,8 +41,8 @@ function formatMealPlanText(mealPlan, preferences) {
 
   text += `═══════════════════════════════\n\n`
   text += `📍 Orai Road Near Naher Bypass, Rath, UP\n`
-  text += `📞 +91 6306019048\n`
-  text += `✉️ umarroyal.rath@gmail.com\n\n`
+  text += `📞 +91 9826030890\n`
+  text += `✉️ ojasnahta2004@gmail.com\n\n`
   text += `Transform Your Body • Elevate Your Life`
 
   return text

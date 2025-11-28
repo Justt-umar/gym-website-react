@@ -24,7 +24,7 @@ Modern React-based fitness website built with Vite, React Router, and responsive
 
 1. **Clone the repository** (or you already have the folder)
    ```bash
-   cd /Users/umarkhan/Desktop/Gym-Website-React
+   cd /Users/ojasnahta/Desktop/Gym-Website-React
    ```
 
 2. **Install dependencies**
@@ -229,9 +229,9 @@ All images are in `public/images/`. Replace them with your own:
 
 ## 👨‍💻 Developer
 
-**Umar Khan**
-- Email: umarroyal.rath@gmail.com
-- Phone: +91 6306019048
+**Ojas Nahta**
+- Email: ojasnahta2004@gmail.com
+- Phone: +91 9826030890
 
 ## 📄 License
 

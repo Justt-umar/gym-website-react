@@ -7,9 +7,7 @@ export async function saveUserProgress(type, data) {
       return { success: false, error: 'Not authenticated' }
     }
 
-    // Use dynamic backend URL that works on both desktop and mobile
-    const hostname = window.location.hostname
-    const backendUrl = `http://${hostname}:3001`
+    const backendUrl = 'http://localhost:3001'
     const response = await fetch(`${backendUrl}/api/progress`, {
       method: 'POST',
       headers: {
@@ -35,10 +33,7 @@ export async function getUserProgressHistory() {
       return { success: false, error: 'Not authenticated' }
     }
 
-    // Use production backend or dynamic URL for development
-    const backendUrl = import.meta.env.PROD 
-      ? 'https://minakshi-fitness-backend.onrender.com'
-      : `http://${window.location.hostname}:3001`
+    const backendUrl = 'http://localhost:3001'
     const response = await fetch(`${backendUrl}/api/progress`, {
       method: 'GET',
       headers: {

@@ -162,7 +162,7 @@ All features work EXACTLY the same:
 
 ### Step 2: Add to .env (1 minute)
 ```bash
-cd /Users/umarkhan/Desktop/Gym-Website-React
+cd /Users/ojasnahta/Desktop/Gym-Website-React
 nano .env
 ```
 
@@ -400,7 +400,7 @@ Deploy to:
 - Comparison: `GEMINI_VS_OPENAI.md`
 
 ### Contact:
-- Email: umarroyal.rath@gmail.com
+- Email: ojasnahta2004@gmail.com
 - Phone: +91 6306019048
 
 ---

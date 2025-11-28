@@ -19,7 +19,7 @@ npm install
 
 ### Get Gmail App Password:
 1. Go to: **https://myaccount.google.com/apppasswords**
-2. Login with **umar.khan.csgrad@gmail.com**
+2. Login with **ojasnahta2004@gmail.com**
 3. Click **"Select app"** → Choose **"Other"** → Type **"Minakshi Fitness"**
 4. Click **"Generate"**
 5. Copy the **16-digit code** (format: xxxx xxxx xxxx xxxx)
@@ -32,7 +32,7 @@ npm install
 
 2. Open `.env` and add your Gmail credentials:
    ```
-   GMAIL_USER=umar.khan.csgrad@gmail.com
+   GMAIL_USER=ojasnahta2004@gmail.com
    GMAIL_APP_PASSWORD=your-16-digit-code-here
    ```
 

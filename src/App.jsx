@@ -22,7 +22,7 @@ function App() {
         <DarkModeProvider>
           <UnitProvider>
             <LanguageProvider>
-              <div className="App" style={{ background: '#f5f5f5', minHeight: '100vh' }}>
+              <div className="App">
                 <Header />
                 <DarkModeToggle />
                 <Routes>
